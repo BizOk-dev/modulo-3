@@ -4,13 +4,8 @@ body{
 	background-color: maroon;
     font-family: 'Arima Madurai', cursive;
    }
- .container{
- width: 100%;
- margin-right: auto;
- margin-left: auto;
-  }
+ 
 #header-nav {
-position: static;
 font-weight: bold;
 color: #fff;
 border-radius: 0;
@@ -18,11 +13,10 @@ border: 0;
 background-color: yellow;
 }
 #brand{
-	height: 100px;
 	text-align: center;
 }
-#brand a{
-color: #951c49;
+#brand{
+color: maroon;
 }
 #brand a:hover , #brand a:focus{
 	text-decoration: none;
@@ -42,8 +36,8 @@ color: #951c49;
 #menu{
 	font-weight: bold;
 	font-size: 30px;
-	margin-top: 40px;
-	margin-bottom:  40px;
+	margin-top: 15px;
+	margin-bottom:  25px;
 }
 #par{
 	background-color: black;
